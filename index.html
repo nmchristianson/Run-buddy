@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8" />
     <title> Run Buddy</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
 </head>
 
 <body>
     <!-- NAGIVATION -->
     <header>
-        <h1> 
-            <a href="/">RUN BUDDY</h1>
+        <h1> <a href="/">RUN BUDDY</a>
+        </h1>
         <nav>
             <!-- Unordered list element-->
             <ul>
@@ -31,6 +33,41 @@
             </ul>
         </nav>
     </header>
+    <section class="hero"> 
+        <div class="hero-form">
+          <h3>Get Started Today</h3>
+          <p>Fill out this form and one of our trainers will schedule a consult</p>
+          <form>
+            <label for="name">Enter full name:</label>
+            <p>
+            <input type="text" placeholder="Your Name" name="name" id="name" />
+            <p>
+            <label for="email">Enter email address:</label>
+            <p>
+            <input type="email" placeholder="Email Address" name="email" id="email" />
+            <p>
+            <label for="phone">Enter a telephone number:</label>
+            <p>
+            <input type="tel" placeholder="Phone Number" name="phone" id="phone"/>
+            <p>
+                Have you worked out with a trainer before?
+                <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                <label for="trainer-yes">Yes</label>
+                <input type="radio" name="trainer-confirm" id="trainer-no" />
+                <label for="trainer-no">No</label>
+            </p>
+            <p>
+                <label for="checkbox" >
+                  I acknowledge that I am at least 18 years of age.
+                </label>
+                <input type="checkbox" name="age-confirm" id="checkbox" />
+              </p>
+              <button type="submit">
+                Get running!
+              </button> 
+        </form>
+        </div>
+      </section>
 
 <!-- HERO/JUMBOTRON-->
 <section></section>
@@ -56,21 +93,15 @@
   </section>
   
 
-<div> Box 1</div>
 
-<div> 
-    Box 2
-
-    <div> Box 3
-
-        <div> Box 4</div>
-        <div> Box 5</div>
-    </div>
-</div>
 
 <!-- footer-->
 <footer> 
     <h2>❤️ Made with love by Run Buddy </h2>
+    <div>
+        <a href="#">Read Our Privacy Policy</a><br />
+        &copy; 2019 Run Buddy, Inc.
+      </div>
 </footer>
 </body>
 </html>
